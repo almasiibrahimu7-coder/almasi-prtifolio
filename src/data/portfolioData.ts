@@ -21,9 +21,9 @@ export const PORTFOLIO_OWNER = {
   monogram: 'AI',
   title: 'Economics & Finance Student | Business Professional | Aspiring Data Scientist',
   location: 'Tanzania',
-  whatsappNumber: '25562378713',
-  whatsappDisplay: '+255 623 787 13',
-  email: 'alamasi1ibrahimu@gmail.com',
+  whatsappNumber: '255627378713',
+  whatsappDisplay: '+255 627 378 713',
+  email: 'almasiibrahimu7@gmail.com',
   heroBio:
     'I am a motivated Tanzanian professional with experience in business operations, sales, marketing, inventory management and finance. I am passionate about technology, data, business growth and developing solutions that create real impact.',
   aboutParagraphs: [
