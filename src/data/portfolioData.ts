@@ -17,17 +17,17 @@ export interface SkillItem {
 }
 
 export const PORTFOLIO_OWNER = {
-  name: 'Almasi Ibrahim',
+  name: 'Almasi Ibrahimu',
   monogram: 'AI',
   title: 'Economics & Finance Student | Business Professional | Aspiring Data Scientist',
   location: 'Tanzania',
-  whatsappNumber: '255627378713',
-  whatsappDisplay: '+255 627 378 713',
-  email: 'almasiibrahimu7@gmail.com',
+  whatsappNumber: '25562378713',
+  whatsappDisplay: '+255 623 787 13',
+  email: 'alamasi1ibrahimu@gmail.com',
   heroBio:
     'I am a motivated Tanzanian professional with experience in business operations, sales, marketing, inventory management and finance. I am passionate about technology, data, business growth and developing solutions that create real impact.',
   aboutParagraphs: [
-    'My name is Almasi Ibrahim. I am interested in economics, finance, business management, technology and data science.',
+    'My name is Almasi Ibrahimu. I am interested in economics, finance, business management, technology and data science.',
     'I enjoy learning how businesses operate, how technology can improve decision-making and how data can be used to solve real-world problems.',
     'My long-term goal is to develop strong skills in data analysis, artificial intelligence and data science while continuing to build practical experience in business and finance.',
   ],

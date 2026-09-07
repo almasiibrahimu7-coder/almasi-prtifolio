@@ -38,3 +38,6 @@
 .animate-pulse-ring {
   animation: pulse-slow 3.5s infinite ease-in-out;
 }
+html { scroll-behavior: smooth; }
+.section-title { @apply text-2xl md:text-3xl font-extrabold tracking-tight mt-2; }
+.body-text { @apply text-slate-500 leading-7; }
