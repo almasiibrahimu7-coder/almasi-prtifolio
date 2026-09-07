@@ -1,4 +1,4 @@
-import { almasi photo } from 'almasi.jpeg';
+import { almasi photo } from 'almasi..jpeg';
 import {
   PackageCheck,
   TrendingUp,
