@@ -1,4 +1,5 @@
-import almasiPhoto from './almasi-.jpeg';
+import { useState } from 'react';
+import almasiPhoto from './almasi..jpeg';
 import {
   PackageCheck,
   TrendingUp,
