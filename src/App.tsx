@@ -6,7 +6,7 @@ const nav = [
   ['Overview','home',LayoutDashboard],['About','about',User],['Education','education',GraduationCap],['Experience','experience',BriefcaseBusiness],['Skills','skills',BrainCircuit],['Projects','projects',FolderKanban],['Certificates','certificates',Award],['Contact','contact',Mail]
 ] as const;
 
-export function App(){
+export default function App(){
  const [open,setOpen]=useState(false);
  return <div className="min-h-screen bg-[#f5f7fb] text-slate-900 lg:flex">
   <aside className={`fixed inset-y-0 left-0 z-50 w-72 bg-[#071a33] text-white p-6 transition-transform lg:translate-x-0 ${open?'translate-x-0':'-translate-x-full'}`}>
