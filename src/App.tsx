@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { almasi photo } from 'almasi.jpeg';
 import {
   PackageCheck,
   TrendingUp,
@@ -201,8 +201,8 @@ export function App() {
           <div className="relative w-40 h-40 mx-auto mb-8 flex items-center justify-center">
             <div className="absolute inset-0 rounded-full border-2 border-[#F4B400]/40 animate-pulse-ring" />
             <div className="w-36 h-36 rounded-full border-4 border-[#F4B400] bg-white text-[#071A33] flex flex-col items-center justify-center shadow-2xl">
-              <img
-  src="/src/almasi.jpeg"
+       <img
+  src={almasiPhoto}
   alt="Almasi Ibrahim"
   className="w-full h-full object-cover rounded-full"
 />
