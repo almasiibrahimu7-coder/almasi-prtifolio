@@ -1,4 +1,4 @@
-import { almasi photo } from 'almasij-.peg';
+import  almasiPhoto  from './almasij-.peg';
 import {
   PackageCheck,
   TrendingUp,
@@ -205,7 +205,7 @@ export function App() {
   src={almasiPhoto}
   alt="Almasi Ibrahim"
   className="w-full h-full object-cover rounded-full"
-/img>
+/>
               <span className="text-[10px] font-mono uppercase tracking-widest text-[#123B67] font-semibold mt-1">
                 TANZANIA
               </span>
