@@ -201,9 +201,11 @@ export function App() {
           <div className="relative w-40 h-40 mx-auto mb-8 flex items-center justify-center">
             <div className="absolute inset-0 rounded-full border-2 border-[#F4B400]/40 animate-pulse-ring" />
             <div className="w-36 h-36 rounded-full border-4 border-[#F4B400] bg-white text-[#071A33] flex flex-col items-center justify-center shadow-2xl">
-              <span className="font-display text-5xl font-extrabold tracking-tight leading-none">
-                {PORTFOLIO_OWNER.monogram}
-              </span>
+              <img
+  src="/src/almasi.jpeg"
+  alt="Almasi Ibrahim"
+  className="w-full h-full object-cover rounded-full"
+/>
               <span className="text-[10px] font-mono uppercase tracking-widest text-[#123B67] font-semibold mt-1">
                 TANZANIA
               </span>
