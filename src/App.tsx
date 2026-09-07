@@ -11,7 +11,14 @@ export default function App(){
  return <div className="min-h-screen bg-[#f5f7fb] text-slate-900 lg:flex">
   <aside className={`fixed inset-y-0 left-0 z-50 w-72 bg-[#071a33] text-white p-6 transition-transform lg:translate-x-0 ${open?'translate-x-0':'-translate-x-full'}`}>
    <div className="flex items-center justify-between mb-10"><a href="#home" className="font-display font-extrabold text-2xl">ALMASI<span className="text-[#f4b400]">.</span></a><button className="lg:hidden" onClick={()=>setOpen(false)}><X/></button></div>
-   <div className="rounded-2xl bg-white/5 border border-white/10 p-4 mb-7"><div className="w-14 h-14 rounded-2xl bg-[#f4b400] text-[#071a33] grid place-items-center text-xl font-extrabold mb-3">AI</div><div className="font-bold">Almasi Ibrahimu</div><div className="text-xs text-slate-400 mt-1">Economics • Finance • Data</div></div>
+  <div className="rounded-2xl bg-white/5 border border-white/10 p-4 mb-7">
+  <img
+    src="/almasi123.jpeg"
+    alt="Almasi Ibrahimu"
+    className="w-14 h-14 rounded-2xl object-cover border-2 border-white/20"
+  />
+  <div className="font-bold">Almasi Ibrahimu</div>
+</div><div className="text-xs text-slate-400 mt-1">Economics • Finance • Data</div></div>
    <nav className="space-y-1">{nav.map(([label,id,Icon])=><a key={id} href={`#${id}`} onClick={()=>setOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm text-slate-300 hover:bg-white/10 hover:text-white transition"><Icon className="w-4 h-4"/>{label}</a>)}</nav>
    <div className="absolute bottom-6 left-6 right-6 text-xs text-slate-500">AlmasiIbrahimu.com<br/>Personal Dashboard</div>
   </aside>
