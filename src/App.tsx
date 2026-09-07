@@ -18,7 +18,7 @@ export default function App(){
     className="w-14 h-14 rounded-2xl object-cover border-2 border-white/20"
   />
   <div className="font-bold">Almasi Ibrahimu</div>
-</div><div className="text-xs text-slate-400 mt-1">Economics • Finance • Data</div></div>
+<div className="text-xs text-slate-400 mt-1">Economics • Finance • Data</div></div>
    <nav className="space-y-1">{nav.map(([label,id,Icon])=><a key={id} href={`#${id}`} onClick={()=>setOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm text-slate-300 hover:bg-white/10 hover:text-white transition"><Icon className="w-4 h-4"/>{label}</a>)}</nav>
    <div className="absolute bottom-6 left-6 right-6 text-xs text-slate-500">AlmasiIbrahimu.com<br/>Personal Dashboard</div>
   </aside>
